@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "topics", schema = "mycourseapp")
-public class Topic implements Serializable {
+public class Topic extends BaseEntity implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	@Id

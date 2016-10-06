@@ -6,6 +6,7 @@
 	<groupId>com.jnit</groupId>
 	<artifactId>MyCourseApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<name>MyCourseApp</name>
 	<description>Demo project for Spring Boot</description>
@@ -32,7 +33,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -44,6 +49,7 @@
 			<scope>test</scope>
 		</dependency>
 		
+
 	</dependencies>
 
 	<build>

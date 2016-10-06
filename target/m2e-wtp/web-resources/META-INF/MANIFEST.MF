@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: MyCourseApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lavanya
+Implementation-Vendor-Id: com.jnit
+Build-Jdk: 1.8.0_66
+Implementation-URL: http://projects.spring.io/spring-boot/MyCourseApp/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
